@@ -1,0 +1,71 @@
+{
+    "name": "vscode-k8s-pack",
+    "displayName": "KDCLL DotNetCore Kubernetes Extension Pack",
+    "description": "Extension pack for DotNetCore Kubernetes, Docker, Container, Development",
+    "version": "1.0.0",
+    "license": "SEE LICENSE IN LICENSE",
+    "galleryBanner": {
+        "color": "#0072c6",
+        "theme": "dark"
+    },
+    "icon": "kdcllc-icon.png",
+    "repository": {
+        "url": "https://github.com/kdcllc/vscode-k8s-pack"
+    },
+    "homepage": "https://github.com/kdcllc/vscode-k8s-pack",
+    "bugs": {
+        "url": "https://github.com/kdcllc/vscode-k8s-pack/issues"
+    },
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Azure",
+        "Extension Packs"
+    ],
+    "keywords": [
+        "azure",
+        "kubernetes",
+        "docker",
+        "dotnetcore",
+        "microservices"
+    ],
+
+    "extensionPack": [ 
+        "kdcllc.k8s-pack"
+    ],
+    
+    "publisher": "kdcllc",
+    
+    "extensionPack": [
+        
+        "vscode-azureextensionpack",
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "ms-python.anaconda-extension-pack",
+        "ms-vsliveshare.vsliveshare-pack",
+        "donjayamanne.git-extension-pack",
+        "docsmsft.docs-authoring-pack",
+
+        "ms-azuretools.vscode-docker",
+        "ms-kubernetes-tools.vscode-kubernetes-tools",
+        "ms-kubernetes-tools.vscode-aks-tools",
+
+        "humao.rest-client",
+        "visualstudioexptteam.vscodeintellicode",
+        "echnosophos.vscode-helm",
+        "vscode-icons-team.vscode-icons",
+        
+        "jchannon.csharpextensions",
+        "ms-vscode.csharp",
+        "coenraads.bracket-pair-colorizer",
+
+        "formulahendry.dotnet-test-explorer",
+        "mikestead.dotenv",
+        "mitchdenny.ecdc",
+        "editorconfig.editorconfig",
+        "streetsidesoftware.code-spell-checker",
+
+        "in4margaret.compareit"
+
+    ]
+}
