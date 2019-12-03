@@ -2,7 +2,7 @@
     "name": "vscode-k8s-pack",
     "displayName": "KDCLL DotNetCore Kubernetes Extension Pack",
     "description": "Extension pack for DotNetCore Kubernetes, Docker, Container, Development",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "SEE LICENSE IN LICENSE",
     "galleryBanner": {
         "color": "#0072c6",
@@ -31,10 +31,6 @@
         "microservices"
     ],
 
-    "extensionPack": [ 
-        "kdcllc.k8s-pack"
-    ],
-    
     "publisher": "kdcllc",
     
     "extensionPack": [
