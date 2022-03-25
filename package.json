@@ -2,7 +2,7 @@
     "name": "vscode-k8s-pack",
     "displayName": "KDCLL DotNetCore Kubernetes Extension Pack",
     "description": "Extension pack for DotNetCore Kubernetes, Docker, Container, Development",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "license": "SEE LICENSE IN LICENSE",
     "galleryBanner": {
         "color": "#0072c6",
@@ -35,15 +35,29 @@
     
     "extensionPack": [
         
-        "vscode-azureextensionpack",
-        "ms-vscode-remote.vscode-remote-extensionpack",
-        "ms-python.anaconda-extension-pack",
-        "ms-vsliveshare.vsliveshare-pack",
-        "donjayamanne.git-extension-pack",
-        "docsmsft.docs-authoring-pack",
-
+        "ms-vscode.azure-account",
+        "ms-azuretools.vscode-azureappservice",
+        "ms-azuretools.vscode-azurefunctions",
+        "ms-azuretools.vscode-cosmosdb",
+        "ms-azuretools.vscode-azurestorage",
+        "ms-mssql.mssql",
+        "ms-vscode.azurecli",
+        "ms-azuretools.azurerm-vscode-tools",
         "ms-azuretools.vscode-docker",
+        "usqlextpublisher.usql-vscode-ext",
+        "VisualStudioOnlineApplicationInsights.application-insights",
         "ms-kubernetes-tools.vscode-kubernetes-tools",
+        "ms-azuretools.vscode-azureterraform",
+
+        "ms-vscode-remote.remote-containers",
+        "ms-vscode-remote.remote-wsl",
+        "ms-vscode-remote.remote-ssh-explorer",
+        "ms-vscode-remote.remote-ssh",
+        "ms-vscode-remote.remote-ssh-edit",
+
+        "ms-vsliveshare.vsliveshare",
+        "ms-vsliveshare.vsliveshare-audio",
+
         "ms-kubernetes-tools.vscode-aks-tools",
 
         "humao.rest-client",
