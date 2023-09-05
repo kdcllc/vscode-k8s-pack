@@ -31,8 +31,15 @@ Please send [email](mailto:kingdavidconsulting@gmail.com) if you consider to **h
 
 1. After installing the extension, open a Kubernetes manifest file (e.g., `.yaml`, `.yml`) or switch to a Kubernetes-related context in your project.
 2. Explore the provided features by using the context menu or keyboard shortcuts.
-3. Refer to the [documentation](https://github.com/kdcllc/vscode-k8s-pack/wiki) for detailed information on each feature and how to use them effectively.
 
+## Local development
+
+```bash
+    npm install
+    
+    #build extension
+    npx vsce package --no-dependencies
+```
 ## Contributing
 
 Contributions to `vscode-k8s-pack` are welcome! If you'd like to contribute, please follow the [contribution guidelines](./.github/CONTRIBUTING.md).

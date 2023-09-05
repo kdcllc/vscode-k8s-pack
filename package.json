@@ -2,7 +2,7 @@
     "name": "vscode-k8s-pack",
     "displayName": "KDCLL DotNetCore Kubernetes Extension Pack",
     "description": "Extension pack for Kubernetes, Docker, Container, Development",
-    "version": "2.0.0",
+    "version": "1.0.1",
     "license": "SEE LICENSE IN LICENSE",
     "galleryBanner": {
         "color": "#0072c6",
@@ -30,11 +30,8 @@
         "dotnetcore",
         "microservices"
     ],
-
     "publisher": "kdcllc",
-    
     "extensionPack": [
-        
         "ms-vscode.azure-account",
         "ms-azuretools.vscode-azureappservice",
         "ms-azuretools.vscode-azurefunctions",
@@ -45,35 +42,30 @@
         "ms-azuretools.azurerm-vscode-tools",
         "ms-azuretools.vscode-docker",
         "VisualStudioOnlineApplicationInsights.application-insights",
-
         "usqlextpublisher.usql-vscode-ext",
-        
         "ms-kubernetes-tools.vscode-kubernetes-tools",
         "ms-azuretools.vscode-azureterraform",
-
         "ms-vscode-remote.remote-containers",
         "ms-vscode-remote.remote-wsl",
         "ms-vscode-remote.remote-ssh-explorer",
         "ms-vscode-remote.remote-ssh",
         "ms-vscode-remote.remote-ssh-edit",
         "ms-kubernetes-tools.vscode-aks-tools",
-
         "humao.rest-client",
         "visualstudioexptteam.vscodeintellicode",
         "echnosophos.vscode-helm",
         "vscode-icons-team.vscode-icons",
-        
         "jchannon.csharpextensions",
         "ms-vscode.csharp",
         "coenraads.bracket-pair-colorizer",
-
         "formulahendry.dotnet-test-explorer",
         "mikestead.dotenv",
         "mitchdenny.ecdc",
         "editorconfig.editorconfig",
         "streetsidesoftware.code-spell-checker",
-
         "in4margaret.compareit"
-
-    ]
+    ],
+    "devDependencies": {
+        "@vscode/vsce": "^2.21.0"
+    }
 }
