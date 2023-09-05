@@ -28,5 +28,5 @@ jobs:
       - name: Publish Extension to VS Code Marketplace
         # PAT expiries often
         run: |
-          echo ${{ secrets.VSCODE_PUBLISH_TOKEN }} | vsce login kdcllc
-          vsce publish --package **/*.vsix
+          echo ${{ secrets.VSCODE_PUBLISH_TOKEN }} | npx vsce login kdcllc
+          npx vsce publish --package **/*.vsix
