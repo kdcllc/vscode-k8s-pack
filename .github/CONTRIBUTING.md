@@ -13,7 +13,6 @@ Before you get started, please take a moment to read through this guide to under
   - [Testing](#testing)
   - [Submitting Pull Requests](#submitting-pull-requests)
 - [Feature Requests](#feature-requests)
-- [Code of Conduct](#code-of-conduct)
 - [License](#license)
 
 ## Reporting Issues

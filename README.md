@@ -1,9 +1,13 @@
 # vscode-k8s-pack
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/kdcllc/vscode-k8s-pack/CI?label=CI&logo=github)
 [![GitHub license](https://img.shields.io/github/license/kdcllc/vscode-k8s-pack)](https://github.com/kdcllc/vscode-k8s-pack/blob/main/LICENSE)
+![master workflow](https://github.com/kdcllc/vscode-k8s-pack/actions/workflows/master.yml/badge.svg)
 
 `vscode-k8s-pack` is a Visual Studio Code extension that simplifies Kubernetes (K8s) development by providing a curated set of tools and features for working with Kubernetes clusters. Whether you are a seasoned Kubernetes user or just getting started, this extension aims to enhance your development workflow and productivity.
+
+Starting with version 2.0.0 the pack has been splited into:
+-[`vscode-azure-pack`](https://github.com/kdcllc/vscode-azure-pack)
+-[`vscode-dotnetcore-pack`](https://github.com/kdcllc/vscode-dotnetcore-pack)
 
 ## Features
 
