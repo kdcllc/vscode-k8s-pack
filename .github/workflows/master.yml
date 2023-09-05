@@ -7,6 +7,7 @@ on:
 
 jobs:
   build:
+    name: Build and Publish
     runs-on: ubuntu-latest
 
     steps:
@@ -24,32 +25,8 @@ jobs:
       - name: Build Extension
         run: npx vsce package --no-dependencies
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-
-    steps:
-        # https://github.com/actions/upload-artifact
-      - name: Deploy Extension
-        uses: actions/upload-artifact@v3
-        with:
-          name: vscode-k8s-pack
-          path: | 
-            **/*.vsix
-
-  release:
-    needs: deploy
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Download Deployed Extension
-        uses: actions/download-artifact@v3
-        with:
-          name: vscode-k8s-pack
-
       - name: Publish Extension to VS Code Marketplace
         # PAT expiries often
         run: |
           echo ${{ secrets.VSCODE_PUBLISH_TOKEN }} | vsce login kdcllc
           vsce publish --package **/*.vsix
-
